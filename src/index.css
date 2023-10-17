@@ -6,13 +6,13 @@
 :root {
 	--primary-color: #575c84;
 	--secondary-color: #686e9d;
-	--tertiary-color: #e06bd5;
+	--tertiary-color: #98E4FF;
 	--quaternary-color: #18fff3;
 	--quinary-color: #ff775c;
 	--senary-color: #ff4359;
 	--septenary-color: #76ffb0;
 	--bg: #4b39c6;
-	--bg1: #e06bd5;
+	--bg1: #98E4FF;
 }
 
 html {
@@ -76,7 +76,7 @@ body {
 	height: auto;
 	background: radial-gradient(
 			circle,
-			rgba(224, 107, 213, 0.8520658263305322) 0%,
+			rgba(26, 144, 186, 0.8520658263305322) 0%,
 			rgba(75, 57, 198, 0.9052871148459384) 100%
 		),
 		url("/Background.jpeg");
@@ -191,8 +191,8 @@ body {
 }
 
 #AngkaGradientBlue {
-	-webkit-text-stroke: 1px #14a6ef3f; /* Menggunakan efek outline teks dengan warna hitam */
-	background: linear-gradient(to bottom right, #96dcff, #14a6ef 55%);
+	-webkit-text-stroke: 1px #0000003f; /* Menggunakan efek outline teks dengan warna hitam */
+	background: linear-gradient(to bottom right, #000000, #000000 55%);
 	filter: brightness(1.2);
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -266,7 +266,7 @@ body {
 #Mesh1 {
 	width: 100%;
 	position: absolute;
-	background-image: radial-gradient(at -66% 56.8%, hsl(292, 93%, 53%) 0px, transparent 50%);
+	background-image: radial-gradient(at -66% 56.8%, hsl(214, 78%, 44%) 0px, transparent 50%);
 	background-repeat: no-repeat, no-repeat;
 	z-index: -999;
 }
@@ -279,7 +279,7 @@ body {
 
 
 #Tabs {
-	background-image: radial-gradient(at 122.3% 55.5%, hsla(292, 93%, 53%, 0.492) 0px, transparent 50%),
+	background-image: radial-gradient(at 122.3% 55.5%, hsla(214, 78%, 44%, 0.492) 0px, transparent 50%),
 		radial-gradient(at 81.4% 65.2%, hsl(0, 0%, 12%) 0px, transparent 50%);
 }
 
@@ -404,8 +404,8 @@ input:focus {
 #Footer {
 	background: linear-gradient(
 		to top,
-		rgba(218, 9, 229, 0.39) 5%,
-		rgba(218, 9, 229, 0.149) 55%,
+		rgba(26, 144, 186, 0.39) 5%,
+		rgba(19, 97, 187, 0.149) 55%,
 		rgba(0, 0, 0, 0)
 	);
 }
