@@ -18,7 +18,7 @@ const StrukturKelas = () => {
 		<div className="z-1  relative h-auto lg:h-[83vh] lg:overflow-hidden">
 			{/* wali kelas */}
 			<div data-aos="fade-up" data-aos-duration="500" className="mt-14 md:mt-10">
-				<BorderStruktur Jabatan="Wali Kelas" Nama="Pak Elwin Adlian Raharja" Width="150px" />
+				<BorderStruktur Jabatan="Wali Kelas" Nama="Pak Elwin Adlian Raharja S.Pd" Width="150px" />
 			</div>
 			<div className="flex flex-col justify-center items-center">
 				<img src="LineVertikal.svg" alt="" data-aos="fade-up" data-aos-duration="550" />
@@ -136,7 +136,7 @@ const StrukturKelas = () => {
 					<div className="flex-col">
 						<BorderStruktur Jabatan="Bendahara" Nama="Fira" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="Ressa" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Shintia" Width="120px" />
 					</div>
 				</div>
 
@@ -198,19 +198,19 @@ const StrukturKelas = () => {
 					data-aos="fade-up"
 					data-aos-duration="1100">
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Keamanan" Nama="Tidak tau" Width="120px" />
+						<BorderStruktur Jabatan="Keamanan" Nama="Fabian" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="Tidak tau" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Noname" Width="120px" />
 					</div>
 
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Kebersihan" Nama="Tak tau" Width="120px" />
+						<BorderStruktur Jabatan="Kebersihan" Nama="NoName" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="Tak Tau" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="NoName" Width="120px" />
 					</div>
 
 					<div className="flex-col hidden lg:flex">
-						<BorderStruktur Jabatan="Kebersihan" Nama="noname" Width="120px" />
+						<BorderStruktur Jabatan="Kebersihan" Nama="Noname" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Noname" Width="120px" />
 					</div>
